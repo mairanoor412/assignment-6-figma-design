@@ -7,13 +7,22 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      roboto: ["roboto"]
+    },
     extend: {
+      screens: {
+        "max-md": {"max": "800px"},
+        "max-sm": {"max":"428px"}
+      },
       colors: {
+        primary:"#000000",
+        secondary: "#FFFFFF",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };
 export default config;
