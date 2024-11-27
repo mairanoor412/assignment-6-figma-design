@@ -21,11 +21,13 @@ const config: Config = {
   			}
   		},
   		colors: {
-  			primary: {
+			primary:"#000000",
+			secondary: "#FFFFFF",
+  			primary1: {
   				DEFAULT: 'hsl(var(--primary))',
   				foreground: 'hsl(var(--primary-foreground))'
   			},
-  			secondary: {
+  			secondary1: {
   				DEFAULT: 'hsl(var(--secondary))',
   				foreground: 'hsl(var(--secondary-foreground))'
   			},
