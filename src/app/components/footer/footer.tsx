@@ -91,7 +91,7 @@ const Footer =()=>{
 
                     {/* logo */}
                     <div className="flex  gap-[12px] ml-auto max-sm:justify-center max-sm:ml-0">
-                    <Image src="/image/facebook.png" alt="logo" width={10} height={18} className="h-[18px] w-[10px]" />
+                    <Image src="/image/Facebook.png" alt="logo" width={10} height={18} className="h-[18px] w-[15px]" />
                     <Image src="/image/insta.png" alt="logo" width={18} height={18} className="h-[18px] w-[18px]"/>
                     <Image src="/image/twitter.png" alt="logo" width={18} height={15.3} className="h-[15.3px] w-[10px]" />
                     <Image src="/image/linkdin.png" alt="logo" width={18} height={18} className="h-[18px] w-[18px]"/>

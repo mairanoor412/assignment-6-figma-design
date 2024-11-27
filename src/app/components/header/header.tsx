@@ -18,29 +18,29 @@ const Header =()=>{
                 </div>
 
                 {/*nav*/}
-                <div className="flex h-[44px] max-w-[910px] items-center  text-primary ml-auto bg-secondary max-sm:w-[428px] max-sm:hidden">
-                <ul className="flex gap-[32px] w-[687px] justify-evenly">
-                    <li className="font-roboto font-[400] text-[16px]  ">
-                        <Link href="/" target="_blank"> Home </Link>
+                <div className="flex h-[44px] max-w-[910px] items-center  text-primary ml-auto bg-secondary max-sm:w-[428px] gap-[32px] max-sm:hidden">
+                <ul className="flex gap-[32px] w-[687px] justify-start">
+                    <li className="font-roboto font-[400] text-[16px] w-[64px] h-[44px]  border-b-2  border-primary flex justify-center items-center ">
+                        <Link href="/" target="_blank"  > Home </Link>
                     </li>
 
-                    <li className="font-roboto font-[400] text-[16px] ">
+                    <li className="font-roboto font-[400] text-[16px] w-[79px] h-[44px]  flex justify-center items-center ">
                         <Link href="#courses" target="_blank"> Courses </Link>
                     </li>
 
-                    <li className="font-roboto font-[400] text-[16px] ">
+                    <li className="font-roboto font-[400] text-[16px] w-[81px] h-[44px]  flex justify-center items-center ">
                         <Link href="/" target="_blank"> Services </Link>
                     </li>
 
-                    <li className="font-roboto font-[400] text-[16px] ">
+                    <li className="font-roboto font-[400] text-[16px] w-[113px] h-[44px] flex justify-center items-center ">
                         <Link href="#achievement" target="_blank"> Achievement </Link>
                     </li>
 
-                    <li className="font-roboto font-[400] text-[16px] ">
+                    <li className="font-roboto font-[400] text-[16px] w-[86px] h-[44px] flex justify-center items-center ">
                         <Link href="/" target="_blank"> About Us </Link>
                     </li>
 
-                    <li className="font-roboto font-[400] text-[16px] ">
+                    <li className="font-roboto font-[400] text-[16px] w-[104px] h-[44px]  flex justify-center items-center ">
                         <Link href="#testimonial" target="_blank"> Testimonial </Link>
                     </li>
                     </ul>

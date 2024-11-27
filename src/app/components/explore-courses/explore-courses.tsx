@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
+
 
 const ExploreCourses =()=>{
     return(
@@ -101,7 +103,7 @@ const ExploreCourses =()=>{
                  {/* courses-7 */}
                  <div className="h-[132px] w-full rounded-[5px] p-[16px] bg-[#F7F7F7] flex gap-[32px] items-center max-sm:hidden">
                 {/*image  */}
-                <div className="h-[100px] w-[100px] p-[34px] rounded-[5px] bg-secondary">
+                <div className="h-[100px] w-[100px] rounded-[5px] bg-secondary">
                     <Image src="/image/explore-courses/7-Frame 292.png" alt="courses" width={100} height={100}/>
                 </div>
 
@@ -144,9 +146,15 @@ const ExploreCourses =()=>{
             </div>
 
               {/* button */}
-              <div className=" max-w-[155px] h-[48px] flex justify-center m-auto  border-[1px] border-primary rounded-[5px]">
+              {/* <div className=" max-w-[155px] h-[48px] flex justify-center m-auto  border-[1px] border-primary rounded-[5px]">
                     <button className="font-roboto font-[400] text-[16px]  "> View All Courses </button>
-                </div>
+                </div> */}
+               
+               {/* button used shadcn */}
+            <div className="flex justify-center  ">
+              <Button variant={"figma"} size={"lap"}>View All Courses</Button>
+              </div>
+
 
 
             

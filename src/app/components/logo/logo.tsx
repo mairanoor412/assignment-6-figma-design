@@ -16,7 +16,7 @@ const Logo =()=>{
 
                 {/* right logo */}
                 <div className=" flex justify-between max-w-[132px]  h-[18px] text-primary ml-auto gap-[12px] ">
-                    <Image src="/image/facebook.png" alt="logo" width={15} height={18} />
+                    <Image src="/image/Facebook.png" alt="logo" width={15} height={18} />
                     <Image src="/image/insta.png" alt="logo" width={18} height={18} />
                     <Image src="/image/twitter.png" alt="logo" width={18} height={15.3} />
                     <Image src="/image/linkdin.png" alt="logo" width={18} height={18} />

@@ -224,7 +224,7 @@ const Courses =()=>{
              </div>
              
              {/* buttom */}
-             <div className=" m-auto w-[152px]  py-[8px] px-[16px] border-[1px] border-primary text-center rounded-[5px] max-sm:mt-5 ">
+             <div className=" m-auto   py-[8px] px-[16px] border-[1px] border-primary text-center rounded-[5px] max-sm:mt-5 ">
                 <button className=" font-roboto font-[400] text-[16px] text-primary ">View All Courses</button>
              </div>
              
