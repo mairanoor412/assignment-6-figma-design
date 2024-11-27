@@ -14,9 +14,9 @@ const HeroSection =()=>{
                  </div>
                  
                  {/* buttons */}
-                 <div className="flex gap-[16px] w-[358px]  max-sm:text-center  max-sm:gap-[8px]">              
-                <button className="py-[12px]  px-[24px] font-roboto font-[400] text-[16px] text-secondary bg-primary border-[1px] border-primary rounded-[5px]"> Start learning now </button>
-                <button className="py-[12px] px-[24px] font-roboto font-[400] text-[16px] text-primary  border-[1px] border-primary rounded-[5px]"> Explore Courses </button>
+                 <div className="flex gap-[16px] w-full  max-sm:text-center  max-sm:gap-[8px]">              
+                <button className="py-[12px]  px-[24px] font-roboto font-[400] text-[16px] text-secondary bg-primary border-[1px] border-primary rounded-[5px]  "> Start learning now </button>
+                <button className="py-[12px] px-[24px] font-roboto font-[400] text-[16px] text-primary  border-[1px] border-primary rounded-[5px] "> Explore Courses </button>
                 </div>
             </div>
 
