@@ -12,22 +12,22 @@ const Achievement2 =()=>{
             <div className="w-[1256px] h-[96px] flex flex-row justify-evenly gap-[24px] py-[8px]">
             <div>
                 <h1 className="font-roboto font-[700] text-[40px] text-primary"> +200 </h1>
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Courses </p>
+                <p className="font-roboto font-[400] text-[16px] text-center text-primary"> Courses </p>
             </div>
 
             <div>
                 <h1 className="font-roboto font-[700] text-[40px] text-primary"> 50K </h1>
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Mentors </p>
+                <p className="font-roboto font-[400] text-[16px] text-center text-primary"> Mentors </p>
             </div>
 
             <div>
                 <h1 className="font-roboto font-[700] text-[40px] text-primary"> 370k </h1>
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Students </p>
+                <p className="font-roboto font-[400] text-[16px] text-center text-primary"> Students </p>
             </div>
 
             <div>
                 <h1 className="font-roboto font-[700] text-[40px] text-primary"> 100+ </h1>
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Recognition </p>
+                <p className="font-roboto font-[400] text-[16px] text-center text-primary"> Recognition </p>
             </div>
             </div>
 

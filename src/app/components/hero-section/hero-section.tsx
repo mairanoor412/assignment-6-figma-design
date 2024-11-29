@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const HeroSection =()=>{
     return(
-    <div className="max-sm:h-screen max-sm:w-full overflow-x-hidden max-sm:overflow-x-hidden">
+    <div className=" max-sm:w-full overflow-x-hidden max-sm:overflow-x-hidden">
         
-        <div className="h-[800px] max-w-[1280px] grid grid-cols-2  gap-[24px]  bg-secondary  max-sm:flex max-sm:flex-col overflow-x-hidden max-sm:overflow-x-hidden max-sm:py-[64px] max-sm:h-[770px] max-sm:w-full ">
+        <div className="max-h-[800px] max-w-[1280px] grid grid-cols-2  gap-[24px]  bg-secondary max-md:grid-cols-1 max-md:grid-rows-2 max-sm:flex max-sm:flex-col overflow-x-hidden max-sm:overflow-x-hidden  max-sm:h-auto max-sm:w-full  ">
             
             {/* left section data */}
-            <div className="flex flex-col justify-center  max-w-[640px]  pl-[80px]  gap-[36px]  max-sm:w-full max-sm:pl-5">
+            <div className="flex flex-col justify-center  max-w-[640px]  pl-[80px]  gap-[36px]  max-sm:w-full max-sm:px-[24px] max-sm:py-[32px]">
                 <div className=" max-w-[500px] h-[212px] max-sm:h-[174px] max-sm:w-[380px]  ">
                 <h1 className=" max-w-[500px]   font-roboto font-[700] text-[56px] leading-[67.2px] text-primary max-sm:text-[40px] max-sm:leading-[48px]"> Learn new skills online with ease </h1>
-                <p className=" max-w-[500px] h-[54px] pr-10 mt-7  font-roboto font-[400] text-[18px] leading-[27px] text-primary max-sm:pr-0 "> Discover a wide range of courses covering a variety of subjects, taught by expert instructors. </p>
+                <p className=" max-w-[500px] h-[54px] pr-10 mt-7  font-roboto font-[400] text-[18px] leading-[27px] text-primary max-sm:pr-4 "> Discover a wide range of courses covering a variety of subjects, taught by expert instructors. </p>
                  </div>
                  
                  {/* buttons */}
@@ -31,7 +31,7 @@ const HeroSection =()=>{
         
 
         {/* bottom part */}
-        <div className="h-[228px] max-w-[1280px] flex flex-row items-center bg-[#F7F7F7] max-sm:flex-col max-sm:h-[239.34px] max-sm:px-[24px] max-sm:py-[48px] max-sm:items-start max-md:gap-[24px]">
+        <div className="h-[228px] max-w-[1280px] flex flex-row items-center bg-[#F7F7F7] max-sm:flex-col max-sm:h-auto max-sm:px-[24px]  max-sm:items-start max-sm:gap-[24px]  max-sm:py-[48px] max-sm:bg-secondary">
             {/* left */}
             <div className="max-sm:flex max-sm:items-start">
                 <p className="w-[320px] font-roboto font-[700] text-[24px] leading-[33.6px] text-primary max-sm:hidden" > Trusted by 2000+ companies worldwide. </p>
@@ -39,7 +39,7 @@ const HeroSection =()=>{
             </div>
 
             {/* right images*/}
-            <div className="max-w-[880px] h-[56px] flex flex-row justify-end ml-auto py-[8.74px] gap-[19.12px] max-sm:pb-[5px]  max-sm:gap-[16px] max-sm:justify-start max-sm:h-[78px] max-sm:w-full  ">
+            <div className="max-w-[880px] h-[56px] flex flex-row justify-end ml-auto py-[8.74px] gap-[19.12px] max-sm:pb-[5px]  max-sm:gap-[16px] max-sm:justify-start max-sm:h-auto max-sm:w-full  ">
                 <Image src="/image/1-Airbnb Logo.png" alt="airbnb" width={123.8} height={38.52}/>
                 <Image src="/image/2-Airbnb Logo.png" alt="airbnb" width={123.8} height={38.52}/>
                 <Image src="/image/3-Airbnb Logo.png" alt="airbnb" width={123.8} height={38.52}/>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Team =()=>{
     return(
-        <div className="max-w-[1280px] h-[895px] py-[112px] flex flex-col  gap-[80px] bg-[#F7F7F7] max-sm:py-[48px] max-sm:px-[24px] max-sm:h-[1075px]en overflow-hidden max-sm:overflow-hidden">
+        <div className="max-w-[1280px] h-[895px] py-[112px] flex flex-col  gap-[80px] bg-[#F7F7F7] max-sm:py-[48px] max-sm:px-[24px] max-sm:h-auto overflow-hidden max-sm:overflow-hidden">
 
             {/* heading */}
             <div className="max-w-[768px] h-[109px] gap-[16px]  mx-auto flex flex-col max-sm:w-[363px]">
@@ -11,7 +11,7 @@ const Team =()=>{
             </div>
 
             {/* team container*/}
-            <div className="max-w-[1280px] h-[482px] gap-[64px] grid grid-rows-2 grid-cols-3 max-sm:h-[380px]   max-sm:flex max-sm:flex-col max-sm:gap-[64px] ">
+            <div className="max-w-[1280px] h-[482px] gap-[64px] grid grid-rows-2 grid-cols-3 max-sm:h-auto   max-sm:flex max-sm:flex-col max-sm:gap-[64px] ">
               
               {/* team items 1 */}
               <div className="w-full h-[209px] flex flex-col items-center gap-[24px] max-sm:h-[209px]  ">
@@ -127,7 +127,7 @@ const Team =()=>{
                </div>
                
                  {/* button on max-sm */}
-            <div className="max-sm:py-[8px] max-sm:px-[16px]  max-sm:w-[95px] max-sm:h-[40px] max-sm:border-[1px] max-sm:border-primary max-sm:rounded max-sm:m-auto max-sm:block hidden ">
+            <div className=" max-sm:px-[16px] max-sm:py-[8px] max-sm:w-[95px] max-sm:h-auto max-sm:border-[1px] max-sm:border-primary max-sm:rounded max-sm:m-auto max-sm:block hidden ">
               <button className=" max-sm:font-roboto max-sm:text-[16px] max-sm:text-[primary]"> View All </button>
             </div>
 

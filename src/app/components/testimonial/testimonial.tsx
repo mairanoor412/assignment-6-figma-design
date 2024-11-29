@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Testimonial =()=>{
     return(
-        <div id="testimonial" className="max-w-[1280px]  h-[830.89px] py-[112px] px-[64px] flex flex-col gap-[80px] bg-[#F7F7F7] max-sm:py-[48px] max-sm:px-[24px]  overflow-hidden max-sm:overflow-hidden max-sm:flex max-sm:flex-col max-sm:gap-[48px]">
+        <div id="testimonial" className="max-w-[1280px]  h-[830.89px] py-[112px] px-[64px] flex flex-col gap-[80px] bg-[#F7F7F7] max-sm:py-[48px] max-sm:px-[24px]  overflow-hidden max-sm:overflow-hidden max-sm:flex max-sm:flex-col max-sm:gap-[48px] max-sm:h-auto">
 
             {/* heading/para */}
             <div className="max-w-[560px] h-[109px] flex flex-col justify-between max-sm:w-[361px] max-sm:h-[120px] max-sm:mx-auto max-sm:text-center ">

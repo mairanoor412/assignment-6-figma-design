@@ -10,10 +10,12 @@ const Courses =()=>{
                 <p className="font-roboto font-[400] text-[18px] text-center text-primary">  Your Ultimate Guide to learning </p>
             </div>
 
-            <div className="w-[336px] h-[40px] mx-auto  flex flex-row justify-around items-center gap-[8px]">
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Popular </p>
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Recommended</p>
-                <p className="font-roboto font-[400] text-[16px] text-primary"> Best  Price </p>
+            <div className="  w-[336px]  mx-auto   ">
+                <ul className="flex flex-row gap-[8px]  ">
+                <li className="font-roboto font-[400] text-[16px] text-primary w-[87px] h-[40px] py-[8px] px-[16px]  border-b-[1px] border-primary"> Popular </li>
+                <li className="font-roboto font-[400] text-[16px] text-primary w-[140px] h-[40px] py-[8px] px-[16px] "> Recommended</li>
+                <li className="font-roboto font-[400] text-[16px] text-primary w-[109px] h-[40px] py-[8px] px-[16px] "> Best  Price </li>
+                </ul>
             </div>
 
             {/* courses */}
